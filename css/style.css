@@ -1,0 +1,200 @@
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'manropemedium', Arial, sans-serif;
+}
+
+body {
+  background: #fffcfb;
+}
+
+#first-carousel {
+  background: url(/img/dan-nelson-hIz3vbUbOoI-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: right;
+  padding-top: 50px;
+}
+
+#second-carousel {
+  background: url(/img/Untitled-3.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position-y: 0px;
+  padding-top: 50px;
+}
+
+#carousel {
+  margin-bottom: -80px;
+}
+
+.modal-content {
+  height: 750px !important;
+}
+
+footer {
+  background: #0a1128;
+  color: #fffcfb;
+  margin-top: -100px;
+  height: 250px;
+}
+
+footer .d-flex {
+  min-height: 100px;
+}
+
+footer p {
+  margin-bottom: 0px;
+}
+
+#whatsapp-button {
+  width: 60px;
+  transition: 0.3s;
+  position: fixed;
+  bottom: 10px;
+  right: 15px;
+  z-index: 1;
+}
+
+#whatsapp-button:hover {
+  box-shadow: 0px 0px 30px -5px #28a745;
+  transition: 0.3s;
+}
+
+#solutions-psfirewall {
+  padding-top: 100px;
+  margin-top: -100px;
+}
+
+#solutions-psemail {
+  background: #034078;
+  padding-top: 100px;
+  margin-top: -100px;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+
+#about-us,
+#contact-us {
+  padding-top: 50px;
+  margin-top: -50px;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+
+#about-us {
+  background: #1282a2;
+}
+
+#contact-us {
+  background: #001f54;
+}
+
+.icon-button p,
+.email-button p {
+  margin-top: -48px;
+  margin-left: 70px;
+}
+
+#social-media-icons i {
+  color: #fffcfb;
+  transition: 0.3s;
+}
+
+#social-media-icons i:hover {
+  color: #1282a2;
+  transition: 0.3s;
+}
+
+.navbar {
+  background-color: #fffcfb;
+  font-family: 'manropemedium', Arial, sans-serif;
+  font-size: 1.5rem;
+}
+
+.navbar .active {
+  border-bottom: 2px solid #001f54;
+  color: #001f54 !important;
+}
+
+.dropdown-menu .active {
+  color: #fff;
+  text-decoration: none;
+  background-color: #fff !important;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.6);
+  min-height: 600px;
+}
+
+.accordion button {
+  font-size: 25px;
+}
+
+@media (max-width: 991.98px) {
+  .icon-button p {
+    margin-top: -65px;
+    margin-left: 70px;
+    margin-bottom: 5px;
+  }
+  .email-button p {
+    margin-top: -48px;
+    margin-left: 70px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .icon-button p {
+    margin-top: -48px;
+    margin-left: 70px;
+    margin-bottom: 18px;
+  }
+  header p {
+    display: none;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .lead {
+    font-size: 1.15rem !important;
+  }
+  .display-4 {
+    font-size: 3rem !important;
+  }
+  header #first-carousel {
+    height: 450px;
+  }
+  header #second-carousel {
+    height: 450px;
+  }
+  header .display-3 {
+    font-size: 3rem !important;
+  }
+  header .btn {
+    font-size: 1.15rem !important;
+    padding: 0.3rem !important;
+  }
+  header .carousel-control-prev,
+  header .carousel-control-next {
+    display: none;
+  }
+  #about-us,
+  #contact-us {
+    padding-top: 100px;
+    margin-top: -100px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+  }
+  #solutions-psemail {
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+  }
+  .accordion button {
+    font-size: 20px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
